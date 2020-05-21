@@ -1,6 +1,7 @@
-html {
+*, *:before, *:after {
     box-sizing: border-box;
 }
+
 body {
     background-color: #5F7CBE;
 }
@@ -39,13 +40,22 @@ h1 {
 
 .flex-container {
     display: flex;
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     background-color: #faebd7;
     flex-direction: row;
     overflow: auto;
 }
+.flex-item {
+    background-color: hotpink;
+    flex: 1;
+    margin: 1em;
+}
 
+.section-item {
+    margin: 0 auto;
+    width: 100%
+}
 .img-hero {
     width: 100%;
     height: auto;
