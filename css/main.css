@@ -10,7 +10,7 @@ nav {
     background-color: #FFA500; 
     display: flex;
     width: 100%;    
-    justify-content: flex-start;
+    justify-content: space-evenly;
     font-family: Arial, Helvetica, sans-serif;
     padding: .3em 0em .3em 0em;
 
@@ -40,18 +40,35 @@ h1 {
 
 .flex-container {
     display: flex;
-    /* height: 300px; */
+    height: 300px;
     width: 100%;
     background-color: #faebd7;
     flex-direction: row;
     overflow: auto;
 }
+
+.flex-container-witches {
+    display: flex;
+    /* height: 400px; */
+    width: 100%;
+    background-color: #faebd7;
+    flex-direction: row;
+    overflow: auto;
+}
+
 .flex-item {
     background-color: hotpink;
     flex: 1;
     margin: 1em;
 }
 
+.home {
+    /* display: flex; */
+    justify-content: center;
+    flex: 1;
+    
+    
+}
 .section-item {
     margin: 0 auto;
     width: 100%
